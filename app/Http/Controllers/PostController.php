@@ -36,7 +36,7 @@ class PostController extends Controller
                
         Post::create($requestData);
         return to_route('posts.index');
-        //maii 
+    
     }
     public function show($postID)
     {
